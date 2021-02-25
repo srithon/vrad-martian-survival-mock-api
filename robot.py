@@ -108,43 +108,43 @@ def mine():
     """
     pass
 
-def moveBackward(dis: float):
-    """A blocking or async command which will fly the robot backwards by the specified distance dis.
+def moveBackward(dist: float):
+    """A blocking or async command which will fly the robot backwards by the specified distance dist.
       :returns: None
 
     """
     pass
 
-def moveDown(dis: float):
-    """A blocking or async command which will fly the robot down (towards the ground) by a specified distance dis.
+def moveDown(dist: float):
+    """A blocking or async command which will fly the robot down (towards the ground) by a specified distance dist.
       :returns: None
 
     """
     pass
 
-def moveForward(dis: float):
-    """A blocking or async command which will fly the robot forwards by the specified distance dis.
+def moveForward(dist: float):
+    """A blocking or async command which will fly the robot forwards by the specified distance dist.
       :returns: None
 
     """
     pass
 
-def moveLeft(dis: float):
-    """A blocking or async command which will fly the robot to the left by the specified distance dis.
+def moveLeft(dist: float):
+    """A blocking or async command which will fly the robot to the left by the specified distance dist.
       :returns: None
 
     """
     pass
 
-def moveRight(dis: float):
-    """A blocking or async command which will fly the robot to the right by the specified distance dis.
+def moveRight(dist: float):
+    """A blocking or async command which will fly the robot to the right by the specified distance dist.
       :returns: None
 
     """
     pass
 
-def moveUp(dis: float):
-    """A blocking or async command which will fly the robot up (away from the ground) by the specified distance dis.
+def moveUp(dist: float):
+    """A blocking or async command which will fly the robot up (away from the ground) by the specified distance dist.
       :returns: None
 
     """
